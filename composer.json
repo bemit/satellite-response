@@ -1,0 +1,24 @@
+{
+  "name": "orbiter/satellite-response",
+  "license": "MIT",
+  "description": "",
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*",
+    "orbiter/satellite": "*",
+    "orbiter/satellite-route": "*",
+    "psr/http-server-middleware": "^1.0",
+    "psr/http-server-handler": "^1.0",
+    "psr/http-message": "^1.0",
+    "middlewares/utils": "^2.2",
+    "narrowspark/http-emitter": "^1.0",
+    "equip/dispatch": "^2.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Satellite\\Response\\": "src"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
