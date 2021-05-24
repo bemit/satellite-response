@@ -2,7 +2,7 @@
     "name": "orbiter/satellite-response",
     "license": "MIT",
     "homepage": "https://bemit.codes",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "",
     "require": {
         "php": ">=7.4||>=8.0",
@@ -11,8 +11,8 @@
         "psr/http-server-handler": "^1.0",
         "psr/http-message": "^1.0",
         "nyholm/psr7": "^1.2",
-        "nyholm/psr7-server": "^1.0.0",
-        "narrowspark/http-emitter": "^2.0.1",
+        "nyholm/psr7-server": "^1.0.0||^0.4.1",
+        "narrowspark/http-emitter": "^2.0.1||^1.0",
         "equip/dispatch": "^2.0.0"
     },
     "autoload": {
