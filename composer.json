@@ -2,10 +2,10 @@
     "name": "orbiter/satellite-response",
     "license": "MIT",
     "homepage": "https://bemit.codes",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "",
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.4||>=8.0",
         "ext-json": "*",
         "psr/http-server-middleware": "^1.0",
         "psr/http-server-handler": "^1.0",
